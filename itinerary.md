@@ -17,15 +17,23 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
-1. Create separate inquirer prompts for Manager, engineer and intern information.
+1. Create separate inquirer prompts for Manager, engineer and intern information. These will be located in 
     - managerPrompt(), engineerPrompt() and internPrompt()
     - run managerPrompt().then(choicePrompt()). choicePrompt() gives user choice to add an engineer, intern or exit the queries.
-    - if statements to determine which function to run. Each function will append additional information to the promise object returned from the original then statement
+    - if statements to determine which function to run. Each function will append additional information to the promise object returned from the original then statement.
+    - Data will then be passed through classes as arguments to instantiate employee objects
+    - Is it necessary to create objects? why not just pass the data directly from the inquirer promise to the page builder? Should inquirer prompts be object methods
 
-2. Use class constructor to create manager, employee, intern objects. Each can inherit common methods, properties from a parent Employee class.
+2. Create Manager, Engineer, Intern classes. Each can inherit common methods, properties from a parent Employee class.
+    - Common properties: Email, id
+    - Manager: Office Number
+    - Engineer: GitHub
+    - Intern: School
 
-3. Add generateFile.js to utils file
+3. Add generateFile.js to utils file. This will produce the final HTML file and will do so in dist folder
 
-4 Add page-template.js to src folder - this will contain the HTML code, and will import the necessary objects 
+4. Add page-template.js to src folder - this will contain the HTML code, and will import the necessary objects 
+
+index.js prompts user for information; imports necessary 
 
 
