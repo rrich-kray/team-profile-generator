@@ -28,4 +28,12 @@ THEN I exit the application, and the HTML is generated
 
 4 Add page-template.js to src folder - this will contain the HTML code, and will import the necessary objects 
 
+Page templates:
+
+- Seperate templates for the main html and the cards html
+
+
+
+
+
 
