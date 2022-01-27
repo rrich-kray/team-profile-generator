@@ -1,5 +1,7 @@
 const writeFile = require('../utils/generateFile')
 
+// const normalizeName = (fullName) => fullName.split(' ').forEach(name => name = name[0].toUpperCase() + name.substring(1)).join(' ')
+
 const generateCards = (arrMgr, arrEng, arrInt) => {
     let cardData = '';
 
@@ -40,7 +42,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrEng[i].id}</div>
                 <div class="card-row">Email: ${arrEng[i].email}</div>
-                <div class="card-row">Office Number: ${arrEng[i].git}</div>
+                <div class="card-row">GitHub Address: ${arrEng[i].git}</div>
             </div>
         </div>
     
@@ -63,7 +65,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrInt[i].id}</div>
                 <div class="card-row">Email: ${arrInt[i].email}</div>
-                <div class="card-row">Office Number: ${arrInt[i].school}</div>
+                <div class="card-row">School: ${arrInt[i].school}</div>
             </div>
         </div>
     

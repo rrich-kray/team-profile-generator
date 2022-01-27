@@ -14,15 +14,16 @@ const engineers = [];
 
 const promptEmployee = () => {
     return inquirer.prompt([{
-        type: 'list',
-        name: 'type',
-        message: 'Please select the type of employee',
-        choices: ['manager', 'engineer', 'intern']
-    }, ]).then(response => {
-        if (response.type === 'manager') promptManager()
-        else if (response.type === 'engineer') promptEngineer()
-        else promptIntern()
-    })
+            type: 'list',
+            name: 'type',
+            message: 'Please select the type of employee',
+            choices: ['manager', 'engineer', 'intern']
+        }, ])
+        .then(response => {
+            if (response.type === 'manager') promptManager()
+            else if (response.type === 'engineer') promptEngineer()
+            else promptIntern()
+        })
 }
 
 
@@ -104,7 +105,7 @@ const promptEngineer = () => {
             {
                 type: 'input',
                 name: 'id',
-                message: "Please enter your manager's employee ID number",
+                message: "Please enter your engineer's employee ID number",
                 validate: answer => {
                     if (answer) return true;
                     else {
