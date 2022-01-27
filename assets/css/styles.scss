@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+h1 {
+    font-size: 25px;
+}
+
 .flex-row {
     display: flex;
 }
@@ -25,22 +29,125 @@
     align-items: center;
 }
 
+.a-start {
+    align-items: flex-start;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.h-100 {
+    height: 100%
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-50 {
+    height: 50%
+}
+
+.h-25 {
+    height: 25%
+}
+
+.h-100vh {
+    height: 100vh
+}
+
+.h-75vh {
+    height: 100vh
+}
+
+.h-50vh {
+    height: 50vh
+}
+
+.h-25vh {
+    height: 25vh
+}
+
+.w-100 {
+    width: 100%
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%
+}
+
+.w-25 {
+    width: 25%
+}
+
+.w-100vh {
+    width: 100vh
+}
+
+.w-75vh {
+    width: 100vh
+}
+
+.w-50vh {
+    width: 50vh
+}
+
+.w-25vh {
+    width: 25vh
+}
+
+.a-self-center {
+    align-self: center;
+}
+
+.a-self-start {
+    align-self: flex-start
+}
+
+.a-self-end {
+    align-self: flex-end;
+}
+
+.j-self-center {
+    justify-self: center
+}
+
+.j-self-start {
+    justify-self: flex-start
+}
+
+.j-self-end {
+    justify-self: flex-end
+}
+
+.hero {
+    background-color: rgba(100, 100, 100, 0.5);
+    z-index: -1;
+    .hero h1 {
+        z-index: 1;
+    }
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-
     .card {
-        height: 500px;
-        width: 250px; 
-
+        height: 300px;
+        width: 200px;
+        margin: 20px;
         .card-header {
             height: 25%;
             width: 100%;
             background-color: blue;
         }
-        
         .card-body {
             height: 75%;
             width: 100%;
@@ -48,4 +155,3 @@
         }
     }
 }
-
