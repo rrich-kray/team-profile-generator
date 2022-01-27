@@ -1,6 +1,6 @@
 const writeFile = require('../utils/generateFile')
 
-// const normalizeName = (fullName) => fullName.split(' ').forEach(name => name = name[0].toUpperCase() + name.substring(1)).join(' ')
+// const normalize = (fullName) => fullName.split(' ').forEach(name => name = name[0] + name.substring(1))
 
 const generateCards = (arrMgr, arrEng, arrInt) => {
     let cardData = '';
@@ -11,7 +11,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
     
         <div class="card">
             <div class="card-header flex-column a-center j-center">
-                <h1 class="j-self-start">${arrMgr[i].name}</h1>
+                <h1 class="j-self-start">${normalize(arrMgr[i].name)}</h1>
                 <div class="position-container flex-row a-center j-center">
                     <img src="../assets/images/manager.svg" height='100' width='100'>
                     <h2 class="position flex-row a-center j-center">Manager<h2>

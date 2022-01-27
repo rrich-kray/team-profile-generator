@@ -184,12 +184,11 @@ const promptIntern = () => {
                 name: 'school',
                 message: "Please enter the school your intern is currently attending",
                 validate: answer => {
-                    if (
-                        answer.match(/[A-Za-z]/)
-                    ) {
-                        console.log('Please enter a valid school name')
-                        return false
-                    } else return true;
+                    if (answer) return true;
+                    else {
+                        console.log("Please enter a valid school name!");
+                        return false;
+                    }
                 }
             },
             {
