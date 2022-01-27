@@ -10,9 +10,9 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
         <div class="card">
             <div class="card-header flex-column a-center j-center">
                 <h1 class="j-self-start">${arrMgr[i].name}</h1>
-                <div class="position-container flex-row">
-                    <img src="../assets/images/manager.svg"
-                    <h2 class="position">Manager<h2>
+                <div class="position-container flex-row a-center j-center">
+                    <img src="../assets/images/manager.svg" height='100' width='100'>
+                    <h2 class="position flex-row a-center j-center">Manager<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
@@ -32,9 +32,9 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
         <div class="card">
             <div class="card-header flex-column a-center j-center">
                 <h1 class="j-self-start">${arrEng[i].name}</h1>
-                <div class="position-container flex-row">
-                    <img src="../assets/images/engineer.svg"
-                    <h2 class="position">Engineer<h2>
+                <div class="position-container flex-row a-center j-center">
+                    <img src="../assets/images/engineer.svg" height='100' width='100'>
+                    <h2 class="position flex-row a-center j-center">Engineer<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
@@ -55,9 +55,9 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
         <div class="card">
             <div class="card-header flex-column a-center j-center">
                 <h1 class="j-self-start">${arrInt[i].name}</h1>
-                <div class="position-container flex-row">
-                    <img src="../assets/images/intern.svg"
-                    <h2 class="position">Intern<h2>
+                <div class="position-container flex-row a-center j-center">
+                    <img src="../assets/images/intern.svg" height='100' width='100'>
+                    <h2 class="position flex-row a-center j-center">Intern<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">

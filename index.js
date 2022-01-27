@@ -18,7 +18,11 @@ const promptEmployee = () => {
         name: 'type',
         message: 'Please select the type of employee',
         choices: ['manager', 'engineer', 'intern']
-    }, ])
+    }, ]).then(response => {
+        if (response.type === 'manager') promptManager()
+        else if (response.type === 'engineer') promptEngineer()
+        else promptIntern()
+    })
 }
 
 
@@ -180,7 +184,7 @@ const promptIntern = () => {
                 message: "Please enter the school your intern is currently attending",
                 validate: answer => {
                     if (
-                        answer.match(/^[A-Za-z]/)
+                        answer.match(/[A-Za-z]/)
                     ) {
                         console.log('Please enter a valid school name')
                         return false
@@ -204,15 +208,7 @@ const promptIntern = () => {
 }
 
 
-promptEmployee().then(response => {
-    if (response.type === 'manager') {
-        promptManager()
-    } else if (response.type === 'engineer') {
-        promptEngineer()
-    } else {
-        promptIntern()
-    }
-})
+promptEmployee()
 
 // want to limit side effects. Each function serves a single purpose so as to reduce 
 
