@@ -149,6 +149,7 @@ h1 {
 .grid-container .card .card-header {
   height: 25%;
   width: 100%;
+  background-color: rgba(100, 100, 100, 0.25);
 }
 .grid-container .card .card-header h1 {
   max-height: 25%;
