@@ -15,8 +15,6 @@ Programmatically generate a profile of your team!
 [usage](#usage)
 [contributing](#contributing)
 [tests](#tests)
-[email](#email)
-[github](#github)
 
 
 ## License 
@@ -29,7 +27,7 @@ Node.js and several NPM packages required.
 
 ## Usage 
 
-Cd to the appropriate folder and run the project from the command line using "node index". You will be prompted to choose the type of employee, after which you will be asked to enter information pertaining to that employee. UpoUpon completion of each individual employee, you will be given the option to add another employee. You may add as many employees as desired. Once you have entered all enployee information, an HTML file displaying all of your employee information will be programmatically generated.
+Cd to the appropriate folder and run the project from the command line using "node index". You will be prompted to choose the type of employee, after which you will be asked to enter information pertaining to that employee. Upon completion of each individual employee, you will be given the option to add another employee. You may add as many employees as desired. Once you have entered all enployee information, an HTML file displaying all of your employee information will be programmatically generated.
 
 ## Contributing
 
@@ -45,6 +43,6 @@ Feel free to shoot me any questions at the email below:
 
 rrich.kray@gmail.com
 
-find my GitHub profile by following the link below:
+find my GitHub profile by following the link below: 
 
 https://github.com/rrich-kray/
