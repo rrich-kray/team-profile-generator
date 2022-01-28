@@ -42,7 +42,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrEng[i].getId()}</div>
                 <div class="card-row">Email: <a class="email" href="mailto:${arrEng[i].getEmail()}" target="_blank">${arrEng[i].getEmail()}</a></div>
-                <div class="card-row">GitHub Address: <a class="github" href=${arrEng[i].getGit()} target="_blank">${arrEng[i].getGit()}</a></div>
+                <div class="card-row">GitHub Address: <a class="github" href="${arrEng[i].getGit()}" target="_blank">${arrEng[i].getGit()}</a></div>
             </div>
         </div>
     
