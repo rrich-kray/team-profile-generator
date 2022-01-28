@@ -14,12 +14,12 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
                 <h1 class="j-self-start">${arrMgr[i].getName()}</h1>
                 <div class="position-container flex-row a-center j-center">
                     <img src="../assets/images/manager.svg" height='100' width='100'>
-                    <h2 class="position flex-row a-center j-center">Manager<h2>
+                    <h2 class="position flex-row a-center j-center">${arrMgr[i].getRole()}<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrMgr[i].getId()}</div>
-                <div class="card-row">Email: ${arrMgr[i].getEmail()}</div>
+                <div class="card-row">Email: <a class="email" href="mailto:${arrMgr[i].getEmail()}" target="_blank">${arrMgr[i].getEmail()}</a></div>
                 <div class="card-row">Office Number: ${arrMgr[i].getOffice()}</div>
             </div>
         </div>
@@ -36,13 +36,13 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
                 <h1 class="j-self-start">${arrEng[i].getName()}</h1>
                 <div class="position-container flex-row a-center j-center">
                     <img src="../assets/images/engineer.svg" height='100' width='100'>
-                    <h2 class="position flex-row a-center j-center">Engineer<h2>
+                    <h2 class="position flex-row a-center j-center">${arrEng.getRole()}<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrEng[i].getId()}</div>
-                <div class="card-row">Email: ${arrEng[i].getEmail()}</div>
-                <div class="card-row">GitHub Address: ${arrEng[i].getGit()}</div>
+                <div class="card-row">Email: <a class="email" href="mailto:${arrEng[i].getEmail()}" target="_blank">${arrEng[i].getEmail()}</a></div>
+                <div class="card-row">GitHub Address: <a class="github" href=${arrEng[i].getGit()} target="_blank">${arrEng[i].getGit()}</a></div>
             </div>
         </div>
     
@@ -59,12 +59,12 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
                 <h1 class="j-self-start">${arrInt[i].getName()}</h1>
                 <div class="position-container flex-row a-center j-center">
                     <img src="../assets/images/intern.svg" height='100' width='100'>
-                    <h2 class="position flex-row a-center j-center">Intern<h2>
+                    <h2 class="position flex-row a-center j-center">${arrInt[i].getRole()}<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
                 <div class="card-row">ID: ${arrInt[i].getId()}</div>
-                <div class="card-row">Email: ${arrInt[i].getEmail()}</div>
+                <div class="card-row">Email:<a class="email" href="mailto:${arrInt[i].getEmail()}" target="_blank">${arrInt[i].getEmail()}</a></div>
                 <div class="card-row">School: ${arrInt[i].getSchool()}</div>
             </div>
         </div>
