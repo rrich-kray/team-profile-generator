@@ -36,7 +36,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
                 <h1 class="j-self-start">${arrEng[i].getName()}</h1>
                 <div class="position-container flex-row a-center j-center">
                     <img src="../assets/images/engineer.svg" height='100' width='100'>
-                    <h2 class="position flex-row a-center j-center">${arrEng.getRole()}<h2>
+                    <h2 class="position flex-row a-center j-center">${arrEng[i].getRole()}<h2>
                 </div>
             </div>
             <div class="card-body flex-column a-center j-center">
