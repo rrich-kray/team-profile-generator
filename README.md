@@ -11,14 +11,9 @@ Programmatically generate a profile of your team!
 [title](#title)
 [description](#description)
 [installation](#installation)
-[licenses](#licenses)
 [usage](#usage)
 [contributing](#contributing)
 [tests](#tests)
-
-
-## License 
-
 
 
 ## Installation
@@ -36,6 +31,12 @@ Feel free to fork/leave suggestions in the slack channel.
 ## Testing
 
 All tests comply with the Jest framework and are located in the __tests__ folder. Install Jest framework using "npm install jest", then run tests using "npm test [file name]" for individual tests and "npm run test" to run all tests in unison. 
+
+## Demonstration Video
+
+Link to demonstration video:
+
+https://watch.screencastify.com/v/36X9NwB4fwpAlqOg98jD
 
 ## Questions
 
