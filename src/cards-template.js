@@ -78,3 +78,7 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
 }
 
 module.exports = generateCards
+
+// One thing is why the generate cards is 
+// Not have the cards template just return card data, and then that way they're not tied together. 
+// Make another function inside index.js that runs the generatePage in the correct files, so that functionality is in index.js 

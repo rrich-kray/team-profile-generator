@@ -164,7 +164,7 @@ const promptIntern = () => {
             {
                 type: 'input',
                 name: 'id',
-                message: "Please enter your manager's employee ID number",
+                message: "Please enter your intern's employee ID number",
                 validate: answer => {
                     if (!answer || answer.match(/\D/)) {
                         console.log('Please enter a valid employee ID number')
@@ -215,8 +215,6 @@ promptEmployee()
 
 // want to limit side effects. Each function serves a single purpose so as to reduce 
 
-
-
-
 // select type, then ask questions on that type
 // main menu that branmches off into four directions,
+// function expressions vs declarations are ultimately up to developer preference
