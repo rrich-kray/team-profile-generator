@@ -87,6 +87,7 @@ const promptManager = () => {
                 generatePage(managers, engineers, interns);
             }
         })
+        .then(cardData => writeFile(cardData))
 }
 
 const promptEngineer = () => {
@@ -149,6 +150,7 @@ const promptEngineer = () => {
                 generatePage(managers, engineers, interns)
             }
         })
+        .then(cardData => writeFile(cardData))
 }
 
 const promptIntern = () => {
@@ -208,6 +210,7 @@ const promptIntern = () => {
                 generatePage(managers, engineers, interns)
             }
         })
+        .then(cardData => writeFile(cardData))
 }
 
 

@@ -73,8 +73,6 @@ const generateCards = (arrMgr, arrEng, arrInt) => {
         cardData += card
             // managerSection += 'cardInfo'
     }
-
-    writeFile(cardData)
 }
 
 module.exports = generateCards
