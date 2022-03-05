@@ -4,7 +4,7 @@
 
 ![main screenshot](./assets/images/screen1.png)
 
-Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a siple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs) and really forced me to consider concepts like code modularization more closely.
+Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a simple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs). Presently, I consider this an MVP build, and plan to introduce additional features and improvements in the future including better code modularization and more detailed employee profiles. I will likely also make improvements to the application's fairly minimalist UI.
 
 ## Table of Contents
 
