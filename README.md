@@ -10,7 +10,7 @@ Programmatically generate profiles for all of your employees! This project was b
 
 [Introduction](#introduction)  
 [Dependencies](#dependencies)  
-[Installation](#Installation)
+[Installation](#Installation)  
 [Usage](#usage)  
 [Contributing](#contributing)
 
