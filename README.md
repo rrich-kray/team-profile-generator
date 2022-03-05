@@ -1,41 +1,34 @@
 # Team Profile Generator
 
-## Description
+## Introduction
 
 ![main screenshot](./assets/images/screen1.png)
 
-Programmatically generate a profile of your team!
+Programmatically generate profiles for all of your employees! This project was built so that users can quickly and easily produce a high-quality, single-page web application that displays a team profile in a siple format. It also served as an excellent introduction to Node.js and several of its packages (including inquirer and fs) and really forced me to consider concepts like code modularization more closely.
 
 ## Table of Contents
 
-[Title](#title)  
-[Description](#description)  
-[Installation](#installation)  
+[Introduction](#introduction)  
+[Dependencies](#dependencies)  
+[Installation](#Installation)
 [Usage](#usage)  
-[Contributing](#contributing)  
-[Tests](#tests)
+[Contributing](#contributing)
 
-## Installation
+## Prerequisites
 
-Node.js and several NPM packages required.
+This application requires Node.js to function. Download the installer here: https://nodejs.org/en/download/. Following installation, run "npm i" from a command prompt to install the required dependencies.
 
 ## Usage
 
-Cd to the appropriate folder and run the project from the command line using "node index". You will be prompted to choose the type of employee, after which you will be asked to enter information pertaining to that employee. Upon completion of each individual employee, you will be given the option to add another employee. You may add as many employees as desired. Once you have entered all enployee information, an HTML file displaying all of your employee information will be programmatically generated.
+Team Profile Generator accepts user input using the Node.js Inquirer package and injects the code
+
+For a demonstration of the applpication's functionality, see the video in the link below;
+
+https://watch.screencastify.com/v/36X9NwB4fwpAlqOg98jD
 
 ## Contributing
 
 Feel free to fork/leave suggestions in the slack channel.
-
-## Testing
-
-All tests comply with the Jest framework and are located in the **tests** folder. Install Jest framework using "npm install jest", then run tests using "npm test [file name]" for individual tests and "npm run test" to run all tests in unison.
-
-## Demonstration Video
-
-Link to demonstration video:
-
-https://watch.screencastify.com/v/36X9NwB4fwpAlqOg98jD
 
 ## Questions
 
