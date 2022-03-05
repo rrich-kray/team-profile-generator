@@ -8,11 +8,11 @@ Programmatically generate a profile of your team!
 
 ## Table of Contents
 
-[title](#title)
-[description](#description)
-[installation](#installation)
-[usage](#usage)
-[contributing](#contributing)
+[title](#title)  
+[description](#description)  
+[installation](#installation)  
+[usage](#usage)  
+[contributing](#contributing)  
 [tests](#tests)
 
 ## Installation
