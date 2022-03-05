@@ -20,7 +20,7 @@ This application requires Node.js to function. Download the installer here: http
 
 ## Usage
 
-Team Profile Generator accepts user input using the Node.js Inquirer package and injects the code
+Team Profile Generator accepts user input using the Node.js Inquirer package and injects it into an HTML template to output a single web page. Users are presented with the option to include a single manager and an unlimited quantity of engineers/interns.
 
 For a demonstration of the applpication's functionality, see the video in the link below;
 
